@@ -56,7 +56,7 @@ pyautogui.hotkey('ctrl','c')
 # Paste the text underneath the original test
 pyautogui.press(2*['down'])    # Press the down keyboard key twice
 pyautogui.press('enter')  # New line
-pyautogui.hotkey('ctrl','v')
+pyautogui.hotkey('ctrl','v')  # paste at the text cursor position
 
 # Get the copied text in the clipboard
 import pyperclip  #Standard library - no need to install it
